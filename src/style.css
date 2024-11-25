@@ -1,1 +1,32 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+
+.card{
+    margin: 30px auto;
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#suitUp{
+    font-size: 75px;
+    align-self: flex-start;
+    padding-left: 10px;
+}
+
+#suitDown{
+    font-size: 75px;
+    align-self: flex-end;
+    padding-left: 10px;  
+    justify-content: flex-end;
+    transform: rotate(180deg);
+}
+
+#number{
+    display: flex;
+    font-size: 100px;
+    justify-content: center;
+    flex-grow: 1;
+    align-items: center;
+}
